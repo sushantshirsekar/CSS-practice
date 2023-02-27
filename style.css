@@ -1,150 +1,104 @@
 .container{
+    margin: 0.5em;
+    padding: 0.5em;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-}
-.firstDiv{
-    display: flex;
-    flex-basis: 33%;
-    align-content: flex-start;
-}
-.secondDiv{
-    display: flex;
-    flex-basis: 33%;
-}
-.thirdDiv{
-    display: flex;
-    flex-basis: 33%;
-}
-.fourthDiv{
-    display: flex;
-    flex-basis: 33%;
 }
 .first{
-    margin: 0.5em;
-    padding: 0;
-    height: 300px;
-    background-color: skyblue;
-    border: 1px solid gray;
     list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    align-content: flex-start;
-    flex-flow: row wrap;
-    flex-basis: 100%;
-}
-.firstLi{
-    margin: 5px;
+    margin: 0.5em; 
     padding: 0;
-    border: 1px solid white;
-    background-color: white;
-    height: 50px;
-    flex-basis: 13%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-.second{    
-    margin: 0.5em;
-    padding: 0;
-    height: 300px;
-    background-color: skyblue;
+    width: 630px;
+    height: 400px;
     border: 1px solid gray;
-    list-style-type: none;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-basis: 100%;
-    justify-content: center;
-    align-content: center;
-}
-.secondLi{
-    margin: 5px;
-    padding: 0;
-    border: 1px solid white;
-    background-color: white;
-    height: 50px;
-    flex: 0 0 13%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-.third{
-    margin: 0.5em;
-    padding: 0;
-    height: 300px;
+    flex-direction:  column;
+    flex-wrap: wrap-reverse;
+    align-items: flex-end;
+    justify-content: start;
     background-color: skyblue;
-    border: 1px solid gray;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-basis: 100%;
-    justify-content: end;
-    align-content: end;
-}
-.thirdLi{
-    margin: 5px;
-    padding: 0;
-    border: 1px solid white;
-    background-color: white;
-    height: 50px;
-    flex: 0 0 13%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-.fourth{
-    margin: 0.5em;
-    padding: 0;
-    height: 300px;
-    background-color: skyblue;
-    border: 1px solid gray;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-basis: 100%;
-    align-content: space-around;
-}
-.fourthLi{
-    margin: 5px;
-    padding: 0;
-    border: 1px solid white;
-    background-color: white;
-    height: 50px;
-    flex: 0 0 13%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
 }
 
-.fifth{
+.firstLi{
+    border: 1px solid black; 
     margin: 0.5em;
-    padding: 0;
-    height: 300px;
-    background-color: skyblue;
-    border: 1px solid gray;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-basis: 100%;
-    align-content: space-between;
-}
-.fifthLi{
-    margin: 5px;
-    padding: 0;
-    border: 1px solid white;
-    background-color: white;
     height: 50px;
-    flex: 0 0 13%;
+    width: 50px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-color: white;
+}
+
+.second{
+    list-style-type: none;
+    margin: 0.5em; 
+    padding: 0;
+    width: 630px;
+    height: 400px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction:  column-reverse;
+    flex-wrap: wrap-reverse;
+    align-items: flex-end;
+    justify-content: start;
+    background-color: skyblue;
+}
+.secondLi{
+    border: 1px solid black; 
+    margin: 0.5em;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.third{
+    list-style-type: none;
+    margin: 0.5em;
+    padding: 0;
+    width: 630px;
+    height: 100px;
+    background-color: skyblue;
+    border: 1px solid gray;
+    display: flex;
+}
+
+.thirdLi{
+    border: 1px solid black;
+    margin: 0.5em;
+    height: 50px; 
+    width: 50px;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.fourth{
+    list-style-type: none;
+    margin: 0.5rem;
+    padding: 0;
+    width: 630px;
+    height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: skyblue;
+    border: 1px solid gray;
+}
+
+.fourthLi{
+    border: 1px solid black;
+    margin: 0.5em;
+    height: 50px; 
+    width: 50px;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.fourthDiv{
+    flex-basis: 100%;
 }
